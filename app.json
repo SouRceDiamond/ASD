@@ -1,7 +1,7 @@
 {
-    "name": "ميوزك كوبرا",
-    "logo": "https://telegra.ph/file/8dd5ef5b8ea6b2f4dbe95.jpg",
-    "description": "افضل سورسات التليكرام",
+    "name": "ميوزك الماس",
+    "logo": "https://te.legra.ph/file/d05f802ffedcc4ed02bab.jpg",
+    "description": "افضل سورسات التليجرام",
     "keywords": ["tgmusicbot", "voice chat", "telegram"],
     "repository": "https://github.com/ERTWF/ASD",
     "stack": "container",
@@ -31,17 +31,17 @@
         "BOT_USERNAME": {
             "description": "معرف بوتك بدون '@')",
             "required": true,
-            "value": "RREWQYUBOT"
+            "value": ""
         },
         "PROFILE_CHANNEL": {
             "description": "رابط قناتك خلي .",
             "required": true,
-            "value": "https://t.me/VFF35"
+            "value": "https://t.me/RC_T2"
         },
         "OWNER_USERNAME": {
             "description": "معرفك بدون@ كمطور",
             "required": true,
-            "value": "QABNADLIB"
+            "value": "BK_ZT"
         },
         "STRING_SESSION": {
             "description": "كود بايروجرام",
@@ -50,18 +50,18 @@
         "SUDO_USERS": {
             "description": "ايدي المطورين حط ايديك كمطور",
             "required": true,
-            "value": "1939538780"
+            "value": "5372193406"
             
         },
         "SUPPORT_GROUP": {
-            "description": "رابط كروب الدعم حطه",
+            "description": "رابط جروب الدعم",
             "required": true,
-            "value": "https://t.me/faqek"
+            "value": "https://t.me/bajwkk"
         },
         "UPDATES_CHANNEL": {
-            "description": "رابط قناتك الثانيه ازا ماعندك غير وحده حطو نفس يلي فوك",
+            "description": "رابط قناة تانيه لو معندكش غير واحده حطو نفس اللي فوق",
             "required": true,
-            "value": "https://t.me/VFF34"
+            "value": "https://t.me/Ahmadnnnnmm"
         }
     },
     "buildpacks": [
