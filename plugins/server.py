@@ -13,7 +13,7 @@ from modules.config import BOT_USERNAME
 async def restart_bot(_, message: Message):
     msg = await message.reply("`ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...`")
     args = [sys.executable, "main.py"]
-    await msg.edit("⌔ برستر اهو\n⌔ استناني هنا دقيقه متمشيش 🥺")
+    await msg.edit("⌔ رسترت اهو يروحي شوفت السرعه دي قبل كدا 🥺❤")
     execle(sys.executable, *args, environ)
     return
 
