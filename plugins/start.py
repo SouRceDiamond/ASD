@@ -24,20 +24,20 @@ async def start_private(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "اضـفـني الى مـجمـوعـتك",
+                        "⌔ اضـفـني الى مـجمـوعـتك",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [
-                    InlineKeyboardButton("المـــطور ⌔ ", url=f"https://t.me/{OWNER_USERNAME}"),
-                    InlineKeyboardButton("الأوامــر ⌔ ", url=f"https://telegra.ph/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A8%D9%83-%D9%81%D9%8A-%D8%A7%D9%88%D8%A7%D9%85%D8%B1-%D8%B3%D9%88%D8%B1%D8%B3-%D8%A7%D9%84%D9%85%D8%A7%D8%B3-07-04"),
+                    InlineKeyboardButton("⌔ المـــطور", url=f"https://t.me/{OWNER_USERNAME}"),
+                    InlineKeyboardButton("⌔ الأوامــر", url=f"https://telegra.ph/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A8%D9%83-%D9%81%D9%8A-%D8%A7%D9%88%D8%A7%D9%85%D8%B1-%D8%B3%D9%88%D8%B1%D8%B3-%D8%A7%D9%84%D9%85%D8%A7%D8%B3-07-04"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "جروب الدعم ⌔ ", url=f"{SUPPORT_GROUP}"
+                        "⌔ جروب الدعم", url=f"{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "السورس ⌔ ", url=f"{UPDATES_CHANNEL}"
+                        "⌔ السورس", url=f"{UPDATES_CHANNEL}"
                     ),
                 ],
             ]
