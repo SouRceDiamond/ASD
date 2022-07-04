@@ -186,21 +186,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="المـــطور ⌔ ",
+                            text="⌔ المـــطور",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="قـناة الــبوت ⌔ ",
+                            text="⌔ قـناة الــبوت",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="جروب الدعم ⌔ ",
+                            text="⌔ جروب الدعم",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="الـسـورس ⌔ ",
+                            text="⌔ الـسـورس",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
@@ -239,21 +239,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="المـــطور",
+                            text="⌔ المـــطور",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="قـناة الــبوت",
+                            text="⌔ قـناة الــبوت",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="جروب الدعم",
+                            text="⌔ جروب الدعم",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="الـسـورس",
+                            text="⌔ الـسـورس",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
@@ -269,21 +269,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="المـــطور",
+                            text="⌔ المـــطور",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="قـناة الــبوت",
+                            text="⌔ قـناة الــبوت",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="جروب الدعم",
+                            text="⌔ جروب الدعم",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="الـسـورس",
+                            text="⌔ الـسـورس",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
@@ -391,7 +391,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 تم التشغيل ياغالي اي خدمه ...**".format(),
+            caption="**تم التشغيل ياغالي اي خدمه...**".format(),
            )
 
     os.remove("final.png")
@@ -476,4 +476,4 @@ async def update_admin(client, message):
     for u in new_ads:
         new_admins.append(u.user.id)
     a[message.chat.id] = new_admins
-    await message.reply_text("**♻ ️قيد التحديث ♻️...**")
+    await message.reply_text("**⌔ تم التحديث الى اخر اصدار بنجاح ✅**")
