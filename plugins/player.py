@@ -391,7 +391,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**تم التشغيل ياغالي اي خدمه...**".format(),
+            caption=f"⌔ ***-›شغلتهالك اهو اي خدمه يزميلي 🥺😂** `{pos}`\n\n⌔ **-› الاسم:** [{songname}]({link})| موسيقى`\n⌔**-› يدي المحادثه:** `{chat_id}`\n⌔ **-› طلب الكائن دا:** {m.from_user.mention()}",
            )
 
     os.remove("final.png")
