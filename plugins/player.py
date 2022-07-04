@@ -148,18 +148,18 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** تم دخولي هههه  ...**")
+                        message.chat.id, "** بخ انا جيت 😂  ...**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**نعتذر ياطيب الحساب المساعد محظور او مقيد من الجروب  @{ASSISTANT_USERNAME} بتقدر تتواصل مع مطوري وتحل المشكلة@{OWNER_USERNAME} ✨ **")
+                        f"**شوف الحساب المساعد مقيد ولا مكتوم كدا وارجع شغل تاني  @{ASSISTANT_USERNAME} تقدر تتواصل مع مطوري وتحل المشكلة@{OWNER_USERNAME} ✨ **")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**نعتذر ياطيب الحساب المساعد محظور او مقيد من لجروب  @{ASSISTANT_USERNAME} بتقدر تتواصل مع مطوري وتحل المشكلة @{OWNER_USERNAME}) ✨ **")
+            f"**شوف الحساب المساعد مقيد ولا مكتوم كدا وارجع شغل تاني  @{ASSISTANT_USERNAME} تقدر تتواصل مع مطوري وتحل المشكلة @{OWNER_USERNAME}) ✨ **")
         return
     
     audio = (
@@ -186,21 +186,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="المـــطور",
+                            text="المـــطور ⌔ ",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="قـناة الــبوت",
+                            text="قـناة الــبوت ⌔ ",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="جروب الدعم",
+                            text="جروب الدعم ⌔ ",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="الـسـورس",
+                            text="الـسـورس ⌔ ",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
